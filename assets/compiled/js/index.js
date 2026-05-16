@@ -1,0 +1,1 @@
+import"./modulepreload-polyfill.js";/* empty css   *//* empty css        */import{f as n}from"./api.js";import"./charts.js";async function o(){const t=await n();document.getElementById("totalStudents").innerText=t.length}o();
